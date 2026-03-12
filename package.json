@@ -1,0 +1,15 @@
+{
+  "name": "arch-test",
+  "private": true,
+  "engines": { "node": ">=22.0.0" },
+  "packageManager": "pnpm@10.17.0",
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "build": "pnpm -r run build",
+    "lint": "pnpm -r run lint",
+    "typecheck": "pnpm -r run typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
